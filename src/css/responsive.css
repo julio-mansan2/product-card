@@ -1,0 +1,40 @@
+@media (min-width: 320px) and (max-width: 700px) {
+    body {
+        height: 100%;
+    }
+
+    .img-mobile {
+        border-radius: 10px 10px 0 0;
+        width: 300px;
+    }
+    
+    .description h2 {
+        font-size: 2rem;
+    }
+
+    .price h2 {
+        font-size: 2rem;
+    }
+    
+    .img-desktop {
+        display: none;
+    }
+
+    .img-mobile {
+        display: flex;
+    }
+
+    .container {
+        flex-direction: column;
+        margin: 30px;
+    }
+
+    .info {
+        max-width: 300px;
+        padding: 30px 20px;
+    }
+
+    .buy button p {
+        font-size: 0.9rem;
+    }
+}
